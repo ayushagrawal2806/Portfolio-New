@@ -87,7 +87,7 @@ export const EXPERIENCES: Experience[] = [
     role: "Software Engineer",
     period: "June 2024 – Dec 2025",
     achievements: [
-      "Architected frontend solutions using React.js and React Native, serving 5,000+ monthly active users with a maintaining a 95%+ crash-free rate",
+      "Architected and developed scalable frontend solutions using React.js and React Native, serving 5,000+ monthly active users with a near-perfect crash-free rate.",
       "Optimized data-fetching via TanStack Query, reducing API calls by 35% and improving perceived performance by 40%.",
       "Engineered a reusable component library with Tailwind CSS, reducing feature development time by 25%.",
       "Achieved 85% code coverage with Jest and RTL, reducing production bugs by 30%.",
