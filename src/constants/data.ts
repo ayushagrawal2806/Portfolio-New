@@ -1,7 +1,7 @@
 import type { Experience, Metric, Project, TechCategory } from "../types";
 
 export const METRICS: Metric[] = [
-  { label: "Active Users", value: "5,000+" },
+  { label: "Monthly Active Users", value: "5,000+" },
   { label: "Perceived Performance", value: "40% ↑" },
   { label: "Lighthouse Score", value: "90+" },
   { label: "API Calls Reduced", value: "35%" },
