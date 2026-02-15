@@ -32,7 +32,7 @@ const About: React.FC = () => {
                   React, Next.js, and React Native
                 </span>
                 , I have a proven track record of improving application
-                performance by 20-30% through meticulous code optimization.
+                performance by 30-40% through meticulous code optimization.
                 Beyond building products, I am passionate about mentoring and
                 have guided over{" "}
                 <span className="text-slate-900 font-semibold">

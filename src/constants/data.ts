@@ -53,7 +53,7 @@ export const PROJECTS: Project[] = [
     name: "Cine Fusion",
 
     description:
-      "High-performance movie discovery platform handling 1,000+ daily requests with <2s initial load time. Features efficient pagination and search-driven results for optimized API usage.",
+      "High-performance movie discovery platform handling 200+ daily requests with <2s initial load time. Features efficient pagination and search-driven results for optimized API usage.",
     tech: ["React", "TMDb API", "Tailwind CSS", "Vercel"],
     impact: "90+ Lighthouse Score",
     githubUrl: "https://github.com/ayushagrawal2806/Cine-Fusion",
