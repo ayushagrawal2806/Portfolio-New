@@ -62,8 +62,8 @@ export const PROJECTS: Project[] = [
       "JWT",
     ],
     impact: "End-to-end Seeker & Recruiter Workflows",
-    githubUrl: "https://github.com/ayushagrawal2806/job-board-frontend",
-    liveUrl: "https://job-board-frontend-hazel.vercel.app/",
+    githubUrl: "https://github.com/ayushagrawal2806/career-pulse",
+    liveUrl: "https://career-pulse-hazel.vercel.app/",
   },
   {
     id: "cine-fusion",
