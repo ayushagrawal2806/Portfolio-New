@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
           {PROJECTS.map((project, idx) => (
             <div
               key={project.id}
-              className={`group relative overflow-hidden bg-white/5 border border-white/10 rounded-[2.5rem] transition-all duration-500 hover:bg-white/10 hover:border-white/20 ${idx === 2 ? "md:col-span-2" : ""}`}
+              className={`group relative overflow-hidden bg-white/5 border border-white/10 rounded-[2.5rem] transition-all duration-500 hover:bg-white/10 hover:border-white/20 ${PROJECTS.length % 2 !== 0 && idx === PROJECTS.length - 1 ? "md:col-span-2" : ""}`}
             >
               <div className="p-10 md:p-14 h-full flex flex-col">
                 <div className="flex justify-between items-start mb-12">
@@ -38,6 +38,8 @@ const Projects: React.FC = () => {
                   <div className="flex gap-4">
                     <a
                       href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="p-3 bg-white/5 rounded-full hover:bg-accent transition-all"
                     >
                       <svg
@@ -51,6 +53,8 @@ const Projects: React.FC = () => {
                     {project.liveUrl && (
                       <a
                         href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="p-3 bg-white/5 rounded-full hover:bg-accent transition-all"
                       >
                         <svg

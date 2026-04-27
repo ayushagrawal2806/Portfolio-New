@@ -49,9 +49,25 @@ export const TECH_STACK: TechCategory[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: "career-pulse",
+    name: "CareerPulse",
+    description:
+      "Full-stack job portal connecting Job Seekers and Recruiters with role-based auth, JWT-secured APIs, job search with filters, pagination, saved jobs, apply flow, and recruiter dashboard.",
+    tech: [
+      "React",
+      "TypeScript",
+      "Spring Boot",
+      "PostgreSQL",
+      "TanStack Query",
+      "JWT",
+    ],
+    impact: "End-to-end Seeker & Recruiter Workflows",
+    githubUrl: "https://github.com/ayushagrawal2806/job-board-frontend",
+    liveUrl: "https://job-board-frontend-hazel.vercel.app/",
+  },
+  {
     id: "cine-fusion",
     name: "Cine Fusion",
-
     description:
       "High-performance movie discovery platform handling 200+ daily requests with <2s initial load time. Features efficient pagination and search-driven results for optimized API usage.",
     tech: ["React", "TMDb API", "Tailwind CSS", "Vercel"],
